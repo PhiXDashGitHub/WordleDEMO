@@ -5,6 +5,15 @@ using UnityEditor;
 using UnityEngine.UI;
 using TMPro;
 
+/// <summary>
+/// 
+/// Created by Phillip Kollwitz on June 28th, 2022
+/// Demo Project is provided by GateGames.
+/// We don't own the 'Wordle' property, this is only used for demonstration purposes
+/// For more information, visit 'nytimes.com/games/wordle'
+/// 
+/// </summary>
+
 /* class for better visualization in the inspector */
 [CustomEditor(typeof(WordleGame))]
 public class WordleEditor : Editor
