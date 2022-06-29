@@ -10,7 +10,7 @@ using TMPro;
 /// Created by Phillip Kollwitz on June 28th, 2022
 /// Demo Project is provided by GateGames.
 /// We don't own the 'Wordle' property, this is only used for demonstration purposes
-/// For more information, visit 'nytimes.com/games/wordle'
+/// For more information, visit 'https://www.nytimes.com/games/wordle'
 /// 
 /// </summary>
 
