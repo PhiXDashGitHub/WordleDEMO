@@ -124,6 +124,13 @@ public class WordleGame : MonoBehaviour
 
     void Awake()
     {
+        //check for existing resources
+        if (!wordleData || !wordleBox)
+        {
+            Debug.LogError("Some references are missing. Please check the inspector.");
+            return;
+        }
+
         //load data into words array
         words = wordleData.text.Split('\n');
         //IMPORTANT: remove last char, because unity loads backspaces for some reason
@@ -134,10 +141,8 @@ public class WordleGame : MonoBehaviour
 
         //init input string
         input = "";
-    }
 
-    void Start()
-    {
+        //create wordle instances, init game
         CreateInstances(amountOfGames);
     }
 
